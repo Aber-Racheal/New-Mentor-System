@@ -1,0 +1,4352 @@
+#landing-page-para{
+
+
+width: 98%;
+
+background-color:rgb(42, 41, 41);
+font-size: xx-large;
+color:yellow;
+
+
+
+
+}
+.summmary{
+margin-left: 5%;
+border: 2px solid purple ;
+outline: 40px, solid purple;
+background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./Media/book.jpg');
+border-radius: 30px;
+margin-top: 5%;
+height: 500px;
+margin-right: 5%;
+
+}
+
+.paragraph{
+    /* display: flex; */
+    justify-content: center;
+}
+
+
+#head-image{
+    margin-left: 35%;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+ul li{
+    cursor: pointer;
+    background-color: #c036c7;
+    position: relative;
+    transition: 0.5s;
+    padding: 15px 10px 15px 50px;
+    font-size: medium;
+}
+ul li:hover {
+    background-color:#cbfcd5 ;
+}
+ul li.checked{
+    background-color: #9c20d1;
+    color: white;
+    text-decoration: dashed;
+}
+ul li.checked::before{
+    content: "";
+    width: 10px;
+    height: 17px;
+    top: 12px;
+    left: 19px;
+    border-color: white;
+    border-style: solid;
+    border-width: 0 3px 3px 0;
+    position: absolute;
+    transform: rotate(60deg);
+}
+.close{
+    position: absolute;
+    right: 0;
+    top:0;
+    padding: 10px 14px 10px 14px;
+}
+.close:hover{
+  background-color: #8719c2;  
+  color: rgb(11, 20, 7);
+}
+input{
+    width: 250px;
+    padding: 10px;
+    margin:0;
+    float:left;
+    font-size: medium;
+    border-radius: 5px;
+    
+}
+.addBtn{
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    color:rgb(4, 41, 109);
+    font-size: medium;
+    background: rgb(196, 39, 220);
+    float: left;
+    border: none;
+    border-radius:5px;
+    width: 20%;
+}
+.addBtn:hover{
+    background-color: #ca4bc8;
+}
+.head{
+    background-color: #6b0878;
+    padding: 40px 50px;
+    color: white;
+    text-align: center;
+}
+.head:after{
+content:"" ;
+display: table;
+clear: both;
+}
+#todo{
+  position: absolute;
+  background-color: white;  
+}
+
+
+
+
+
+
+
+
+/* SIGN UP PAGE */
+
+#logo{
+    height: 100px;
+}
+
+#account-question{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: purple;
+}
+
+#account-question span a{
+    color: rgb(247, 8, 80);
+    text-decoration: none;
+    
+}
+
+.form{
+    border: 2px solid;
+    border-radius: 20px;
+    /* padding: 20px; */
+    width: 40%;
+    margin: 35%;
+    margin-top: 2%;
+    background-color: rgb(181, 247, 247);
+    height: 850px;
+    /* padding-top: 90px; */
+    padding-right: 0px;
+   padding-left: 0px;
+
+    
+}
+
+#logo{
+    margin-left: 40%;
+}
+
+#create-account{
+text-align: center;
+}
+
+#connect-mentor{
+    text-align: center;
+}
+.input-first{
+    height: 50px;
+    margin: 2%;
+    border-radius: 10px;
+    border: 2px solid purple;
+    margin-left: 40%;
+    width: 100%;
+    
+}
+/* .box-conditions{
+    display: flex;
+    flex-direction: row;
+} */
+
+
+
+.input-last{
+    height: 50px;
+    margin: 2%;
+    border-radius: 10px;
+    border: 2px solid purple;
+    margin-left: 40%;
+    width:100% ;
+}
+.identity{
+    display: flex;
+    gap: 40px;
+}
+#inputs{
+    height: 50px;
+    margin: 2%;
+    border-radius: 10px;
+    border: 2px solid purple;
+    width: 75%;
+    margin-left: 10%;
+}
+
+.inputs{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#sign-up-button{
+    height: 50px;
+    margin-top: 10%;
+    width: 40%;
+    margin-top: 5%;
+    align-items: center;
+    margin-left: 30%;
+    color: whitesmoke;
+    background-color: purple;
+    font-weight: bolder;
+    border-radius: 35px;
+
+}
+
+#sign-up-button a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 25px;
+    
+}
+
+
+
+/* LOG IN */
+body{
+    background-color: rgb(238, 200, 206);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-log-in{
+   
+    border: 2px solid;
+    border-radius: 20px;
+    /* padding: 20px; */
+    width: 30%;
+    margin: 35%;
+    margin-top: 5%;
+    background-color: rgb(181, 247, 247);
+    height: 500px;
+    /* padding-top: 90px; */
+    padding-right: 0px;
+   padding-left: 0px;
+}
+
+
+
+#account-question1{
+    /* text-align: center; */
+    font-size: large;
+    font-weight: bold;
+    color: purple;
+    margin-left:19% ;
+}
+
+
+#connect-mentor{
+    text-align: center;
+}
+
+
+
+#sign-up{
+    color: rgb(241, 25, 61);
+    font-weight: bolder;
+    
+}
+
+
+/* HOME PAGE STYLES */
+
+.profile-pictures{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+
+.logo-and-header{
+    display: flex;
+    border: 6px solid purple;
+    background-color:purple;
+    
+    width: 80%;
+    margin: 5%;
+    height: 150px;
+    margin-left: 10%;
+    /* align-items: center; */
+    /* justify-content: center; */
+    border-radius: 25px;
+    
+}
+
+.nav-bar-links{
+    display: flex;
+    flex-direction: column;
+    list-style-type: nonre;
+}
+
+
+.nav-bar-links ul a{
+    
+    text-decoration: none;
+    font-size: 20px;
+    /* color: rgb(242, 234, 242); */
+    font-weight: bold;
+    font-size: 30px;
+    
+    
+}
+
+
+#you{
+ 
+    background-color: purple;
+    height: 600px;
+    width: 30%;
+    border-radius:10px ;
+    padding: 0%;
+}
+
+
+#mentor{
+    background-color: purple;
+    height: 600px;
+    width: 30%;
+    border-radius:10px ;
+    padding: 0%;
+
+
+
+}
+
+#profile-pic-mentor{
+    width: fit-content;
+    width: 60%;
+    margin-top:0%;
+    margin-bottom: 5%;
+    padding-top: 0%;
+    margin-left: 21%;
+    border-radius: 15px;
+}
+
+
+#profile-pic-mentee{
+    width: fit-content;
+    width: 60%;
+    margin-top:0%;
+    margin-bottom: 0%;
+    padding-top: 0%;
+    margin-left: 21%;
+    border-radius: 15px;
+    padding: 0%;
+}
+
+
+#mentor-pp{
+    font-size: 50px;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bolder;
+    margin-top: 0%;
+
+}
+
+#mentor-pp a{
+    color: whitesmoke;
+    
+}
+
+/* TERMS STYLES */
+
+.terms-conditions {
+    padding: 0%;
+    margin: 0%;
+}
+.terms-conditions p{
+  
+    padding: 10px;
+    font-style: italic;
+    margin-left:20% ;
+    margin-right: 20%;
+    font-family: sans-serif;
+   
+
+}
+
+.terms-conditions h2{
+    padding: 0px;
+    font-style: italic;
+    margin-left:20% ;
+    margin-right: 20%;
+    
+
+}
+
+
+.page-heading{
+    text-align: center;
+    font-size: 50px;
+    color: purple;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+#terms-button{
+  
+
+
+
+    height: 50px;
+    background-color: purple;
+    width: 20%;
+    color: whitesmoke;
+    height: 50px;
+    border-radius: 60px;
+    margin-left: 40%;
+
+}
+
+#terms-button a{
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+
+
+
+
+
+
+/* Landing page */
+
+.logo-and-title{
+   
+}
+.page-intro{
+    padding: 10px;
+   
+}
+
+#landing-page-para1{
+ 
+    font-style:italic;
+    padding: 15px;
+    margin: 20%;
+    font-size: 20px;
+    margin-left: 0%;
+    margin-top: 5%;
+
+}
+
+#chica-exitosas{
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#about-title{
+font-size: 40px;
+font-weight: bold;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.intro-and-picture{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+} 
+
+
+#mentorship-picture{
+    border-radius: 60px;
+
+}
+
+
+#page-heading{
+    margin-left: 30%;
+}
+
+.landing-page-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: purple;
+    border-radius: 20px;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+
+
+
+
+/* innerpage */
+
+table{
+    width: 10%;
+   
+border: 5px solid rgb(244, 5, 124);
+
+background-color: purple;
+border-radius: 10px;
+margin-bottom: 5%;
+
+}
+
+
+
+td{
+    border: 2px solid black;
+    height: 500px;
+    width: 25%;
+
+
+    
+
+}
+
+
+tr{
+  
+    margin-right: 5%;
+  
+    
+}
+.nav-bar{
+   display: flex;
+   justify-content: center;
+gap: 100px;
+margin-left: 20%;
+    align-items: center;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: rgb(250, 246, 250);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+   
+}
+
+
+.tables{
+    margin: 5%;
+    
+}
+
+
+
+#table-title{
+    text-align: center;
+    margin-left: 30%;
+    font-size: 40px;
+    padding: 50px;
+    font-weight: 550;
+
+}
+
+#table-title-achiv{
+    text-align: center;
+    margin-left: 30%;
+    font-size: 40px;
+    padding: 50px;
+    font-weight: 550;
+
+}
+
+
+#table-title-todo{
+    text-align: center;
+    margin-left: 30%;
+    font-size: 40px;
+    padding: 50px;
+    font-weight: 550;
+
+}
+#save-button{
+background: aquamarine;
+border:purple 2px solid;
+border-radius: 5px;
+width: 40%;
+height: 50px;
+font-size: large;
+color: purple;
+font-weight: bold;
+
+}
+
+
+
+#type-area{
+    height: 500px;
+    width: 98%;
+    
+}
+
+#table-headings{
+color: whitesmoke;
+font-size: x-large;
+}
+
+
+
+/* MENTOR'S PROFILE */
+
+.picture-and-name{
+display: flex;
+margin: 10%;
+justify-content: center;
+gap: 90px;
+}
+
+
+.nationality-workplace{
+    display: flex;
+    margin: 10%;
+    justify-content: center;
+    gap: 90px;
+
+}
+
+
+.nationality-workplace h2{
+    color: purple;
+    font-size: xx-large;
+}
+
+
+.profession-interests{
+    display: flex;
+    margin: 10%;
+    justify-content: center;
+    gap: 90px;
+    
+}
+
+.profession-interests h2{
+    color: purple;
+    font-size: xx-large;
+}
+
+#profile-title{
+text-align: center;
+}
+.profile-section{
+border: 5px solid purple;
+margin: 2%;
+padding: 0%;
+width: 35%;
+margin-left: 25%;
+
+border-radius: 20px;
+height: 850px;
+padding-top: 0%;
+background-color: white;
+/* color: rgb(252, 251, 249); */
+
+}
+
+#mentors-name{
+    color: black;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+
+
+#mentor-profile{
+    background-color: purple;
+    height: 80px;
+    color: whitesmoke;
+    margin-top: 0%;
+
+}
+
+
+
+#profil-picture{
+border-radius: 10px;
+}
+
+
+
+
+/* MEDIA QUERRIES */
+
+/* Extra small devices (phones) */
+@media (max-width: 575.98px) {
+
+
+
+
+    #landing-page-para{
+
+
+        width: 100%;
+        
+        background-color:rgb(42, 41, 41);
+        font-size: x-large;
+        color:yellow;
+        
+        
+        
+        
+        }
+        .summmary{
+        margin-left: 0%;
+        border: 2px solid purple ;
+        outline: 40px, solid purple;
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./Media/book.jpg');
+        border-radius: 30px;
+        margin-top: 5%;
+        height: 500px;
+        margin-right: 5%;
+        
+        }
+        
+        .paragraph{
+            /* display: flex; */
+            justify-content: center;
+        }
+        
+        
+        #head-image{
+            margin-left: 5%;
+            border-radius: 10px;
+        }
+        
+
+        
+
+
+
+
+
+
+    ul{
+        list-style: none;
+        padding: 0;
+    }
+    ul li{
+        cursor: pointer;
+        background-color: #c036c7;
+        position: relative;
+        transition: 0.5s;
+        padding: 15px 10px 15px 50px;
+        font-size: medium;
+    }
+    ul li:hover {
+        background-color:#cbfcd5 ;
+    }
+    ul li.checked{
+        background-color: #9c20d1;
+        color: white;
+        text-decoration: dashed;
+    }
+    ul li.checked::before{
+        content: "";
+        width: 10px;
+        height: 17px;
+        top: 12px;
+        left: 19px;
+        border-color: white;
+        border-style: solid;
+        border-width: 0 3px 3px 0;
+        position: absolute;
+        transform: rotate(60deg);
+    }
+    .close{
+        position: absolute;
+        right: 0;
+        top:0;
+        padding: 10px 14px 10px 14px;
+    }
+    .close:hover{
+      background-color: #8719c2;  
+      color: rgb(11, 20, 7);
+    }
+    input{
+        width: 150px;
+        padding: 10px;
+        margin:0;
+        float:left;
+        font-size: medium;
+        border-radius: 5px;
+        
+    }
+    .addBtn{
+        padding: 15px;
+        text-align: center;
+        cursor: pointer;
+        color:rgb(4, 41, 109);
+        font-size: medium;
+        background: rgb(196, 39, 220);
+        float: left;
+        border: none;
+        border-radius:5px;
+        width: 20%;
+    }
+    .addBtn:hover{
+        background-color: #ca4bc8;
+    }
+    .head{
+        background-color: #6b0878;
+        padding: 40px 50px;
+        color: white;
+        text-align: center;
+    }
+    .head:after{
+    content:"" ;
+    display: table;
+    clear: both;
+    }
+    #todo{
+      position: absolute;
+      background-color: white;  
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    /* SIGN UP PAGE */
+    
+    #logo{
+        height: 100px;
+    }
+    
+    #account-question{
+        text-align: center;
+        font-size: large;
+        font-weight: bold;
+        color: purple;
+    }
+    
+    #account-question span a{
+        color: rgb(247, 8, 80);
+        text-decoration: none;
+        
+    }
+    
+    .form{
+        border: 2px solid;
+        border-radius: 20px;
+        /* padding: 20px; */
+        width: 100%;
+        margin: 35%;
+        margin-top: 2%;
+        background-color: rgb(181, 247, 247);
+        height: 850px;
+        /* padding-top: 90px; */
+        padding-right: 0px;
+       padding-left: 0px;
+       margin: 0%;
+    
+        
+    }
+    
+    #logo{
+        margin-left: 40%;
+    }
+    
+    #create-account{
+    text-align: center;
+    }
+    
+    #connect-mentor{
+        text-align: center;
+    }
+    .input-first{
+        height: 50px;
+        margin: 2%;
+        border-radius: 10px;
+        border: 2px solid purple;
+        margin-left: 30%;
+        width: 70%;
+        
+    }
+    /* .box-conditions{
+        display: flex;
+        flex-direction: row;
+    } */
+    
+    
+    
+    .input-last{
+        height: 50px;
+        margin: 2%;
+        border-radius: 10px;
+        border: 2px solid purple;
+        margin-left: 40%;
+        width:65% ;
+        margin-left: 0%;
+    }
+    .identity{
+        display: flex;
+        gap: 40px;
+    }
+    #inputs{
+        height: 50px;
+        margin: 2%;
+        border-radius: 10px;
+        border: 2px solid purple;
+        width: 75%;
+        margin-left: 10%;
+    }
+    
+    .inputs{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #sign-up-button{
+        height: 50px;
+        margin-top: 10%;
+        width: 40%;
+        margin-top: 5%;
+        align-items: center;
+        margin-left: 30%;
+        color: whitesmoke;
+        background-color: purple;
+        font-weight: bolder;
+        border-radius: 35px;
+    
+    }
+    
+    #sign-up-button a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 15px;
+        
+    }
+    
+    
+    
+    /* LOG IN */
+    body{
+        background-color: rgb(238, 200, 206);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .form-log-in{
+        border: 2px solid;
+        border-radius: 20px; 
+        width: 100%;
+        margin-top: 5%;
+        background-color: rgb(181, 247, 247);
+        height: 500px;
+        padding-right: 0px;
+        margin-left: 0%;
+        margin-right: 0%;
+       padding-left: 0px;
+    }
+    
+    
+    
+    #account-question1{
+        /* text-align: center; */
+        font-size: large;
+        font-weight: bold;
+        color: purple;
+        margin-left:19% ;
+    }
+    
+    
+    #connect-mentor{
+        text-align: center;
+    }
+    
+    
+    
+    #sign-up{
+        color: rgb(241, 25, 61);
+        font-weight: bolder;
+        
+    }
+    
+    
+    /* HOME PAGE STYLES */
+    
+    .profile-pictures{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+    
+    
+    .logo-and-header{
+        display: flex;
+        border: 6px solid purple;
+        background-color:purple; 
+        width: 95%;
+        gap: 10px;
+        margin: 0%;
+        margin-top: 5%;
+        height: 40px;
+        margin-left: 0%;
+        border-radius: 25px;
+        margin-right: 0%;
+    }
+    
+    .nav-bar-links{
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+    }
+    
+    
+    .nav-bar-links ul a{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: 0%;
+        margin-right: 0%;   
+    }
+    
+    
+    #you{
+     
+        background-color: purple;
+        height: 400px;
+        width: 40%;
+        border-radius:10px ;
+        padding: 0%;
+        margin-top: 5%;
+    }
+    
+    
+    #mentor{
+        background-color: purple;
+        height: 400px;
+        width: 40%;
+        border-radius:10px ;
+        padding: 0%;
+        margin-top: 5%;
+    }
+    
+    #profile-pic-mentor{
+        
+        width: 80%;
+        margin-top:0%;
+        margin-bottom: 5%;
+        padding-top: 0%;
+        margin-left: 10%;
+        border-radius: 15px;
+    }
+    
+    
+    #profile-pic-mentee{
+       
+        
+        width: 80%;
+        margin-top:0%;
+        margin-bottom: 0%;
+        padding-top: 0%;
+        /* margin-left: 0%; */
+        border-radius: 15px;
+        padding: 0%;
+        margin-left: 10%;
+    }
+    
+    
+    #mentor-pp{
+        font-size: 50px;
+        text-align: center;
+        color: whitesmoke;
+        font-weight: bolder;
+       
+    
+    }
+    
+    #mentor-pp a{
+        color: whitesmoke;
+        font-size: large;
+        
+    }
+    
+    /* TERMS STYLES */
+    
+    .terms-conditions {
+        padding: 0%;
+      
+    }
+    .terms-conditions p{
+      
+        padding: 10px;
+        font-style: italic;
+        margin-left:20% ;
+        margin-right: 20%;
+        font-family: sans-serif;
+       
+    
+    }
+    
+    .terms-conditions h2{
+        padding: 0px;
+        font-style: italic;
+        margin-left:20% ;
+        margin-right: 20%;
+        
+    
+    }
+    
+    
+    .page-heading{
+        text-align: center;
+        font-size: 50px;
+        color: purple;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    }
+    
+    
+    #terms-button{
+      
+height: 20px;
+        background-color: purple;
+        width: 40%;
+        color: whitesmoke;
+        height: 50px;
+        border-radius: 60px;
+        margin-left: 20%;
+        margin-top: 100%;
+        padding-bottom: 0%;
+    
+    }
+    
+    #terms-button a{
+        text-decoration: none;
+        color: whitesmoke;
+        
+    }
+    
+    
+    
+    
+    
+    
+    /* Landing page */
+    
+    .logo-and-title{
+       
+    }
+    .page-intro{
+        padding: 0px;
+        margin-right: 0%;
+       
+    }
+    
+    #landing-page-para1{
+     
+        font-style:italic;
+        width: 90%;
+        padding: 0px;
+        margin: 0%;
+        font-size: 15px;
+        margin-left: 0%;
+        margin-top: 5%;
+        margin-right: 0%;
+        padding-right: 0px;
+    
+    }
+    
+    #chica-exitosas{
+        margin-left: 0%;
+        font-size: 30px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+    
+    #about-title{
+    font-size: 30px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 0%;
+    }
+    
+    .intro-and-picture{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0%;
+        margin-left:0%;
+        margin-right:0%;
+        padding-right: 0%;
+        padding: 0%;
+    } 
+    
+    
+    #mentorship-picture{
+        border-radius: 60px;
+    width: 60%;
+    }
+    
+    
+    #page-heading{
+        margin-left: 15%;
+    }
+    
+    .landing-page-head{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-evenly;
+        background-color: purple;
+        border-radius: 20px;
+        color: whitesmoke;
+        font-size: 10px;
+        width: 100%;
+        margin-left: 0%;
+        gap: 40px;
+    }
+    
+    
+    
+    
+    
+    /* innerpage */
+    
+    table{
+        width: 10%;
+       
+    border: 5px solid rgb(244, 5, 124);
+    
+    background-color: purple;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    
+    }
+    
+    
+    
+    td{
+        border: 2px solid black;
+        height: 500px;
+        width: 25%;
+    }
+    
+    
+    tr{
+      
+        margin-right: 5%;
+      
+        
+    }
+    .nav-bar{
+       display: flex;
+       /* justify-content: center; */
+    gap: 40px;
+    margin-left: 10%;
+        align-items: center;
+    }
+    .nav-bar a{
+        text-decoration: none;
+        color: rgb(250, 246, 250);
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+       
+    }
+    
+    
+    .tables{
+        margin: 5%;
+        
+    }
+    
+    
+    
+    #table-title{
+        text-align: center;
+        margin-left: 30%;
+        font-size: 40px;
+        padding: 50px;
+        font-weight: 550;
+    
+    }
+    
+    #table-title-achiv{
+        text-align: center;
+        margin-left: 30%;
+        font-size: 40px;
+        padding: 50px;
+        font-weight: 550;
+    
+    }
+    
+    
+    #table-title-todo{
+        text-align: center;
+        margin-left: 30%;
+        font-size: 40px;
+        padding: 50px;
+        font-weight: 550;
+    
+    }
+    #save-button{
+    background: aquamarine;
+    border:purple 2px solid;
+    border-radius: 5px;
+    width: 40%;
+    height: 50px;
+    font-size: large;
+    color: purple;
+    font-weight: bold;
+    
+    }
+    
+    
+    
+    #type-area{
+        height: 500px;
+        width: 98%;
+        
+    }
+    
+    #table-headings{
+    color: whitesmoke;
+    font-size: x-large;
+    }
+    
+    
+    
+    /* MENTOR'S PROFILE */
+    
+    .picture-and-name{
+    display: flex;
+    /* margin: 10%; */
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    }
+    
+    
+    .nationality-workplace{
+        display: flex;
+        flex-direction: column;
+        /* margin: 10%; */
+        justify-content: center;
+        gap: 40px;
+    
+    }
+    
+    
+    .nationality-workplace h2{
+        color: purple;
+        font-size: xx-large;
+    }
+    
+    
+    .profession-interests{
+        display: flex;
+        flex-direction: column;
+        margin: 10%;
+        justify-content: center;
+        gap: 20px;
+        
+    }
+    
+    .profession-interests h2{
+        color: purple;
+        font-size: xx-large;
+    }
+    
+    #profile-title{
+    text-align: center;
+    }
+    .profile-section{
+    border: 5px solid purple;
+    margin: 2%;
+    padding: 0%;
+    width: 95%;
+    margin-left: 0%;
+    
+    border-radius: 20px;
+    height: 1200px;
+    padding-top: 0%;
+    background-color: white;
+    /* color: rgb(252, 251, 249); */
+    
+    }
+    
+    #mentors-name{
+        color: black;
+        font-size: xx-large;
+        font-weight: bold;
+    }
+    
+    
+    
+    #mentor-profile{
+        background-color: purple;
+        height: 100px;
+        color: whitesmoke;
+        margin-top: 0%;
+        font-size:large;
+    
+    }
+    
+    
+    
+    #profil-picture{
+    border-radius: 10px;
+    }
+  
+  }
+
+
+
+
+
+  /* Small devices (phones) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+
+
+    #landing-page-para{
+
+
+        width: 98%;
+        
+        background-color:rgb(42, 41, 41);
+        font-size: xx-large;
+        color:yellow;
+        
+        
+        
+        
+        }
+        .summmary{
+        margin-left: 0%;
+        border: 2px solid purple ;
+        outline: 40px, solid purple;
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./Media/book.jpg');
+        border-radius: 30px;
+        margin-top: 5%;
+        height: 500px;
+        margin-right: 0%;
+        
+        }
+        
+        .paragraph{
+            /* display: flex; */
+            justify-content: center;
+        }
+        
+        
+        #head-image{
+            margin-left: 35%;
+            border-radius: 10px;
+        }
+        
+
+        
+
+
+
+    /* CSS rules for small devices go here */
+    ul{
+        list-style: none;
+        padding: 0;
+    }
+    ul li{
+        cursor: pointer;
+        background-color: #c036c7;
+        position: relative;
+        transition: 0.5s;
+        padding: 15px 10px 15px 50px;
+        font-size: medium;
+    }
+    ul li:hover {
+        background-color:#cbfcd5 ;
+    }
+    ul li.checked{
+        background-color: #9c20d1;
+        color: white;
+        text-decoration: dashed;
+    }
+    ul li.checked::before{
+        content: "";
+        width: 10px;
+        height: 17px;
+        top: 12px;
+        left: 19px;
+        border-color: white;
+        border-style: solid;
+        border-width: 0 3px 3px 0;
+        position: absolute;
+        transform: rotate(60deg);
+    }
+    .close{
+        position: absolute;
+        right: 0;
+        top:0;
+        padding: 10px 14px 10px 14px;
+    }
+    .close:hover{
+      background-color: #8719c2;  
+      color: rgb(11, 20, 7);
+    }
+    input{
+        width: 250px;
+        padding: 10px;
+        margin:0;
+        float:left;
+        font-size: medium;
+        border-radius: 5px;
+        
+    }
+    .addBtn{
+        padding: 15px;
+        text-align: center;
+        cursor: pointer;
+        color:rgb(4, 41, 109);
+        font-size: medium;
+        background: rgb(196, 39, 220);
+        float: left;
+        border: none;
+        border-radius:5px;
+        width: 20%;
+    }
+    .addBtn:hover{
+        background-color: #ca4bc8;
+    }
+    .head{
+        background-color: #6b0878;
+        padding: 40px 50px;
+        color: white;
+        text-align: center;
+    }
+    .head:after{
+    content:"" ;
+    display: table;
+    clear: both;
+    }
+    #todo{
+      position: absolute;
+      background-color: white;  
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    /* SIGN UP PAGE */
+    
+    #logo{
+        height: 100px;
+    }
+    
+    #account-question{
+        text-align: center;
+        font-size: large;
+        font-weight: bold;
+        color: purple;
+    }
+    
+    #account-question span a{
+        color: rgb(247, 8, 80);
+        text-decoration: none;
+        
+    }
+    
+    .form{
+        border: 2px solid;
+        border-radius: 20px;
+        /* padding: 20px; */
+        width: 40%;
+        margin: 35%;
+        margin-top: 2%;
+        background-color: rgb(181, 247, 247);
+        height: 850px;
+        /* padding-top: 90px; */
+        padding-right: 0px;
+       padding-left: 0px;
+    
+        
+    }
+    
+    #logo{
+        margin-left: 40%;
+    }
+    
+    #create-account{
+    text-align: center;
+    }
+    
+    #connect-mentor{
+        text-align: center;
+    }
+    .input-first{
+        height: 50px;
+        margin: 2%;
+        border-radius: 10px;
+        border: 2px solid purple;
+        margin-left: 40%;
+        width: 100%;
+        
+    }
+    /* .box-conditions{
+        display: flex;
+        flex-direction: row;
+    } */
+    
+    
+    
+    .input-last{
+        height: 50px;
+        margin: 2%;
+        border-radius: 10px;
+        border: 2px solid purple;
+        margin-left: 40%;
+        width:100% ;
+    }
+    .identity{
+        display: flex;
+        gap: 40px;
+    }
+    #inputs{
+        height: 50px;
+        margin: 2%;
+        border-radius: 10px;
+        border: 2px solid purple;
+        width: 75%;
+        margin-left: 10%;
+    }
+    
+    .inputs{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #sign-up-button{
+        height: 50px;
+        margin-top: 10%;
+        width: 40%;
+        margin-top: 5%;
+        align-items: center;
+        margin-left: 30%;
+        color: whitesmoke;
+        background-color: purple;
+        font-weight: bolder;
+        border-radius: 35px;
+    
+    }
+    
+    #sign-up-button a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 25px;
+        
+    }
+    
+    
+    
+    /* LOG IN */
+    body{
+        background-color: rgb(238, 200, 206);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .form-log-in{
+       
+        border: 2px solid;
+        border-radius: 20px;
+        /* padding: 20px; */
+        width: 30%;
+        margin: 35%;
+        margin-top: 5%;
+        background-color: rgb(181, 247, 247);
+        height: 500px;
+        /* padding-top: 90px; */
+        padding-right: 0px;
+       padding-left: 0px;
+    }
+    
+    
+    
+    #account-question1{
+        /* text-align: center; */
+        font-size: large;
+        font-weight: bold;
+        color: purple;
+        margin-left:19% ;
+    }
+    
+    
+    #connect-mentor{
+        text-align: center;
+    }
+    
+    
+    
+    #sign-up{
+        color: rgb(241, 25, 61);
+        font-weight: bolder;
+        
+    }
+    
+    
+    /* HOME PAGE STYLES */
+    
+    .profile-pictures{
+        display: flex;
+        justify-content: center;
+        gap: 150px;
+    }
+    
+    
+    .logo-and-header{
+        display: flex;
+        border: 6px solid purple;
+        background-color:purple;
+        
+        width: 80%;
+        margin: 5%;
+        height: 150px;
+        margin-left: 10%;
+        /* align-items: center; */
+        /* justify-content: center; */
+        border-radius: 25px;
+        
+    }
+    
+    .nav-bar-links{
+        display: flex;
+        flex-direction: column;
+        list-style-type: nonre;
+    }
+    
+    
+    .nav-bar-links ul a{
+        
+        text-decoration: none;
+        font-size: 20px;
+        /* color: rgb(242, 234, 242); */
+        font-weight: bold;
+        font-size: 30px;
+        
+        
+    }
+    
+    
+    #you{
+     
+        background-color: purple;
+        height: 600px;
+        width: 30%;
+        border-radius:10px ;
+        padding: 0%;
+    }
+    
+    
+    #mentor{
+        background-color: purple;
+        height: 600px;
+        width: 30%;
+        border-radius:10px ;
+        padding: 0%;
+    
+    
+    
+    }
+    
+    #profile-pic-mentor{
+        width: fit-content;
+        width: 60%;
+        margin-top:0%;
+        margin-bottom: 5%;
+        padding-top: 0%;
+        margin-left: 21%;
+        border-radius: 15px;
+    }
+    
+    
+    #profile-pic-mentee{
+        width: fit-content;
+        width: 60%;
+        margin-top:0%;
+        margin-bottom: 0%;
+        padding-top: 0%;
+        margin-left: 21%;
+        border-radius: 15px;
+        padding: 0%;
+    }
+    
+    
+    #mentor-pp{
+        font-size: 50px;
+        text-align: center;
+        color: whitesmoke;
+        font-weight: bolder;
+        margin-top: 0%;
+    
+    }
+    
+    #mentor-pp a{
+        color: whitesmoke;
+        
+    }
+    
+    /* TERMS STYLES */
+    
+    .terms-conditions {
+        padding: 0%;
+        margin: 0%;
+    }
+    .terms-conditions p{
+      
+        padding: 10px;
+        font-style: italic;
+        margin-left:20% ;
+        margin-right: 20%;
+        font-family: sans-serif;
+       
+    
+    }
+    
+    .terms-conditions h2{
+        padding: 0px;
+        font-style: italic;
+        margin-left:20% ;
+        margin-right: 20%;
+        
+    
+    }
+    
+    
+    .page-heading{
+        text-align: center;
+        font-size: 50px;
+        color: purple;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    }
+    
+    
+    #terms-button{
+      
+    
+    
+    
+        height: 50px;
+        background-color: purple;
+        width: 20%;
+        color: whitesmoke;
+        height: 50px;
+        border-radius: 60px;
+        margin-left: 40%;
+
+        margin-top: 100%;
+    
+    }
+    
+    #terms-button a{
+        text-decoration: none;
+        color: whitesmoke;
+        
+    }
+    
+    
+    
+    
+    
+    
+    /* Landing page */
+    
+    .logo-and-title{
+       
+    }
+    .page-intro{
+        padding: 10px;
+       
+    }
+    
+    #landing-page-para1{
+     
+        font-style:italic;
+        padding: 15px;
+        margin: 20%;
+        font-size: 20px;
+        margin-left: 0%;
+        margin-top: 5%;
+    
+    }
+    
+    #chica-exitosas{
+        font-size: 70px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+    
+    #about-title{
+    font-size: 40px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    }
+    
+    .intro-and-picture{
+        display: flex;
+        flex-direction: row;
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
+    } 
+    
+    
+    #mentorship-picture{
+        border-radius: 60px;
+    
+    }
+    
+    
+    #page-heading{
+        margin-left: 30%;
+    }
+    
+    .landing-page-head{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-evenly;
+        background-color: purple;
+        border-radius: 20px;
+        color: whitesmoke;
+        font-size: 20px;
+    }
+    
+    
+    
+    
+    
+    /* innerpage */
+    
+    table{
+        width: 10%;
+       
+    border: 5px solid rgb(244, 5, 124);
+    
+    background-color: purple;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    
+    }
+    
+    
+    
+    td{
+        border: 2px solid black;
+        height: 500px;
+        width: 25%;
+    
+    
+        
+    
+    }
+    
+    
+    tr{
+      
+        margin-right: 5%;
+      
+        
+    }
+    .nav-bar{
+       display: flex;
+       justify-content: center;
+    gap: 100px;
+    margin-left: 20%;
+        align-items: center;
+    }
+    .nav-bar a{
+        text-decoration: none;
+        color: rgb(250, 246, 250);
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+       
+    }
+    
+    
+    .tables{
+        margin: 5%;
+        
+    }
+    
+    
+    
+    #table-title{
+        text-align: center;
+        margin-left: 30%;
+        font-size: 40px;
+        padding: 50px;
+        font-weight: 550;
+    
+    }
+    
+    #table-title-achiv{
+        text-align: center;
+        margin-left: 30%;
+        font-size: 40px;
+        padding: 50px;
+        font-weight: 550;
+    
+    }
+    
+    
+    #table-title-todo{
+        text-align: center;
+        margin-left: 30%;
+        font-size: 40px;
+        padding: 50px;
+        font-weight: 550;
+    
+    }
+    #save-button{
+    background: aquamarine;
+    border:purple 2px solid;
+    border-radius: 5px;
+    width: 40%;
+    height: 50px;
+    font-size: large;
+    color: purple;
+    font-weight: bold;
+    
+    }
+    
+    
+    
+    #type-area{
+        height: 500px;
+        width: 98%;
+        
+    }
+    
+    #table-headings{
+    color: whitesmoke;
+    font-size: x-large;
+    }
+    
+    
+    
+    /* MENTOR'S PROFILE */
+    
+    .picture-and-name{
+    display: flex;
+    margin: 10%;
+    justify-content: center;
+    gap: 90px;
+    }
+    
+    
+    .nationality-workplace{
+        display: flex;
+        margin: 10%;
+        justify-content: center;
+        gap: 90px;
+    
+    }
+    
+    
+    .nationality-workplace h2{
+        color: purple;
+        font-size: xx-large;
+    }
+    
+    
+    .profession-interests{
+        display: flex;
+        margin: 10%;
+        justify-content: center;
+        gap: 90px;
+        
+    }
+    
+    .profession-interests h2{
+        color: purple;
+        font-size: xx-large;
+    }
+    
+    #profile-title{
+    text-align: center;
+    }
+    
+    .profile-section{
+    border: 5px solid purple;
+    margin: 2%;
+    padding: 0%;
+    width: 85%;
+    margin-left: 25%;
+    
+    border-radius: 20px;
+    height: 850px;
+    padding-top: 0%;
+    background-color: white;
+    /* color: rgb(252, 251, 249); */
+    
+    }
+    
+    #mentors-name{
+        color: black;
+        font-size: xx-large;
+        font-weight: bold;
+    }
+    
+    
+    
+    #mentor-profile{
+        background-color: purple;
+        height: 80px;
+        color: whitesmoke;
+        margin-top: 0%;
+    
+    }
+    
+    
+    
+    #profil-picture{
+    border-radius: 10px;
+    }
+    
+
+
+  }
+
+
+
+  /* Medium devices (tablets) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    #landing-page-para{
+
+
+        width: 98%;
+        
+        background-color:rgb(42, 41, 41);
+        font-size: xx-large;
+        color:yellow;
+        
+        
+        
+        
+        }
+        .summmary{
+        margin-left: 5%;
+        border: 2px solid purple ;
+        outline: 40px, solid purple;
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./Media/book.jpg');
+        border-radius: 30px;
+        margin-top: 5%;
+        height: 500px;
+        margin-right: 5%;
+        
+        }
+        
+        .paragraph{
+            /* display: flex; */
+            justify-content: center;
+        }
+        
+        
+        #head-image{
+            margin-left: 35%;
+            border-radius: 10px;
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+        
+        
+
+    /* CSS rules for medium devices go here */
+    ul{
+        list-style: none;
+        padding: 0;
+    }
+    ul li{
+        cursor: pointer;
+        background-color: #c036c7;
+        position: relative;
+        transition: 0.5s;
+        padding: 15px 10px 15px 50px;
+        font-size: medium;
+    }
+    ul li:hover {
+        background-color:#cbfcd5 ;
+    }
+    ul li.checked{
+        background-color: #9c20d1;
+        color: white;
+        text-decoration: dashed;
+    }
+    ul li.checked::before{
+        content: "";
+        width: 10px;
+        height: 17px;
+        top: 12px;
+        left: 19px;
+        border-color: white;
+        border-style: solid;
+        border-width: 0 3px 3px 0;
+        position: absolute;
+        transform: rotate(60deg);
+    }
+    .close{
+        position: absolute;
+        right: 0;
+        top:0;
+        padding: 10px 14px 10px 14px;
+    }
+    .close:hover{
+      background-color: #8719c2;  
+      color: rgb(11, 20, 7);
+    }
+    input{
+        width: 250px;
+        padding: 10px;
+        margin:0;
+        float:left;
+        font-size: medium;
+        border-radius: 5px;
+        
+    }
+    .addBtn{
+        padding: 15px;
+        text-align: center;
+        cursor: pointer;
+        color:rgb(4, 41, 109);
+        font-size: medium;
+        background: rgb(196, 39, 220);
+        float: left;
+        border: none;
+        border-radius:5px;
+        width: 20%;
+    }
+    .addBtn:hover{
+        background-color: #ca4bc8;
+    }
+    .head{
+        background-color: #6b0878;
+        padding: 40px 50px;
+        color: white;
+        text-align: center;
+    }
+    .head:after{
+    content:"" ;
+    display: table;
+    clear: both;
+    }
+    #todo{
+      position: absolute;
+      background-color: white;  
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    /* SIGN UP PAGE */
+    
+    #logo{
+        height: 100px;
+    }
+    
+    #account-question{
+        text-align: center;
+        font-size: large;
+        font-weight: bold;
+        color: purple;
+    }
+    
+    #account-question span a{
+        color: rgb(247, 8, 80);
+        text-decoration: none;
+        
+    }
+    
+    .form{
+        border: 2px solid;
+        border-radius: 20px;
+        /* padding: 20px; */
+        width: 90%;
+        margin: 0%;
+        margin-top: 2%;
+        background-color: rgb(181, 247, 247);
+        height: 850px;
+        /* padding-top: 90px; */
+        padding-right: 0px;
+       padding-left: 0px;
+       margin-right: 0%;
+       margin-left: 3%;
+    
+        
+    }
+    
+    #logo{
+        margin-left: 40%;
+    }
+    
+    #create-account{
+    text-align: center;
+    }
+    
+    #connect-mentor{
+        text-align: center;
+    }
+    .input-first{
+        height: 50px;
+        margin: 2%;
+        border-radius: 10px;
+        border: 2px solid purple;
+        margin-left: 40%;
+        width: 100%;
+        
+    }
+    /* .box-conditions{
+        display: flex;
+        flex-direction: row;
+    } */
+    
+    
+    
+    .input-last{
+        height: 50px;
+        margin: 2%;
+        border-radius: 10px;
+        border: 2px solid purple;
+        margin-left: 40%;
+        width:100% ;
+    }
+    .identity{
+        display: flex;
+        gap: 40px;
+    }
+    #inputs{
+        height: 50px;
+        margin: 2%;
+        border-radius: 10px;
+        border: 2px solid purple;
+        width: 75%;
+        margin-left: 10%;
+    }
+    
+    .inputs{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #sign-up-button{
+        height: 50px;
+        margin-top: 10%;
+        width: 40%;
+        margin-top: 5%;
+        align-items: center;
+        margin-left: 30%;
+        color: whitesmoke;
+        background-color: purple;
+        font-weight: bolder;
+        border-radius: 35px;
+    
+    }
+    
+    #sign-up-button a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 25px;
+        
+    }
+    
+    
+    
+    /* LOG IN */
+    body{
+        background-color: rgb(238, 200, 206);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0%;
+        margin: 0%;
+        
+    }
+    
+    .form-log-in{
+       
+        border: 2px solid;
+        border-radius: 20px;
+        /* padding: 20px; */
+        width: 90%;
+        margin: 5%;
+        margin-top: 5%;
+        background-color: rgb(181, 247, 247);
+        height: 500px;
+        /* padding-top: 90px; */
+        padding-right: 0px;
+       padding-left: 0px;
+       margin-right: 3%;
+    }
+    
+    
+    
+    #account-question1{
+        /* text-align: center; */
+        font-size: large;
+        font-weight: bold;
+        color: purple;
+        margin-left:19% ;
+    }
+    
+    
+    #connect-mentor{
+        text-align: center;
+    }
+    
+    
+    
+    #sign-up{
+        color: rgb(241, 25, 61);
+        font-weight: bolder;
+        
+    }
+    
+    
+    /* HOME PAGE STYLES */
+    
+    .profile-pictures{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    
+    
+    .logo-and-header{
+        display: flex;
+        
+        border: 6px solid purple;
+        background-color:purple;
+        width: 95%;
+        margin: 5%;
+        height: 150px;
+        margin-left: 10%;
+      font-size: 20px;
+        border-radius: 25px;
+        align-items: center;
+        margin-left: 2%;
+        
+    }
+    
+    .nav-bar-links{
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+    }
+    
+    
+    .nav-bar-links ul a{
+        
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        font-size: 20px;
+        gap: 0px;
+        
+        
+    }
+    
+    
+    #you{
+     
+        background-color: purple;
+        height: 400px;
+        width: 30%;
+        border-radius:10px ;
+        padding: 0%;
+    }
+    
+    
+    #mentor{
+        background-color: purple;
+        height: 400px;
+        width: 30%;
+        border-radius:10px ;
+        padding: 0%;
+    
+    
+    
+    }
+    
+    #profile-pic-mentor{
+        width: fit-content;
+        width: 60%;
+        margin-top:0%;
+        margin-bottom: 5%;
+        padding-top: 0%;
+        margin-left: 21%;
+        border-radius: 15px;
+    }
+    
+    
+    #profile-pic-mentee{
+        width: fit-content;
+        width: 60%;
+        margin-top:0%;
+        margin-bottom: 0%;
+        padding-top: 0%;
+        margin-left: 21%;
+        border-radius: 15px;
+        padding: 0%;
+    }
+    
+    
+    #mentor-pp{
+        font-size: 50px;
+        text-align: center;
+        color: whitesmoke;
+        font-weight: bolder;
+        margin-top: 0%;
+    
+    }
+    
+    #mentor-pp a{
+        color: whitesmoke;
+        
+    }
+    
+    /* TERMS STYLES */
+    
+    .terms-conditions {
+        padding: 0%;
+        margin: 0%;
+    }
+    .terms-conditions p{
+      
+        padding: 10px;
+        font-style: italic;
+        margin-left:20% ;
+        margin-right: 20%;
+        font-family: sans-serif;
+       
+    
+    }
+    
+    .terms-conditions h2{
+        padding: 0px;
+        font-style: italic;
+        margin-left:20% ;
+        margin-right: 20%;
+        
+    
+    }
+    
+    
+    .page-heading{
+        text-align: center;
+        font-size: 50px;
+        color: purple;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    }
+    
+    
+    #terms-button{
+      
+    
+    
+    
+        height: 50px;
+        background-color: purple;
+        width: 20%;
+        color: whitesmoke;
+        height: 50px;
+        border-radius: 60px;
+        margin-left: 40%;
+    
+    }
+    
+    #terms-button a{
+        text-decoration: none;
+        color: whitesmoke;
+        
+    }
+    
+    
+    
+    
+    
+    
+    /* Landing page */
+    
+    .logo-and-title{
+       
+    }
+    .page-intro{
+       
+       
+    }
+    
+    #landing-page-para1{
+     
+        font-style:italic;
+        /* padding: 15px; */
+        margin-bottom: 20%;
+        font-size: 20px;
+        margin-left: 0%;
+        margin-top: 5%;
+    
+    }
+    
+    #chica-exitosas{
+        font-size: 30px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+    
+    #about-title{
+    font-size: 40px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    }
+    
+    .intro-and-picture{
+        display: flex;
+        flex-direction: column;
+        /* margin-top: 5%; */
+        padding: 0%;
+        padding-right: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
+    } 
+    
+    
+    #mentorship-picture{
+        border-radius: 60px;
+        padding: 0%;
+        margin: 0%;
+    
+    }
+    
+    
+    #page-heading{
+      
+    }
+    
+    .landing-page-head{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-evenly;
+        background-color: purple;
+        border-radius: 20px;
+        color: whitesmoke;
+        font-size: large;
+        width:70% ;
+        height: 120px;
+        margin: 0%;
+    }
+    
+    
+    
+    
+    
+    /* innerpage */
+    
+    table{
+        width: 10%;
+       
+    border: 5px solid rgb(244, 5, 124);
+    
+    background-color: purple;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    
+    }
+    
+    
+    
+    td{
+        border: 2px solid black;
+        height: 500px;
+        width: 25%;
+    
+    
+        
+    
+    }
+    
+    
+    tr{
+      
+        margin-right: 5%;
+      
+        
+    }
+    .nav-bar{
+       display: flex;
+       justify-content: center;
+    gap: 100px;
+    margin-left: 20%;
+        align-items: center;
+    }
+    .nav-bar a{
+        text-decoration: none;
+        color: rgb(250, 246, 250);
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+       
+    }
+    
+    
+    .tables{
+        margin: 5%;
+        
+    }
+    
+    
+    
+    #table-title{
+        text-align: center;
+        margin-left: 30%;
+        font-size: 40px;
+        padding: 50px;
+        font-weight: 550;
+    
+    }
+    
+    #table-title-achiv{
+        text-align: center;
+        margin-left: 30%;
+        font-size: 40px;
+        padding: 50px;
+        font-weight: 550;
+    
+    }
+    
+    
+    #table-title-todo{
+        text-align: center;
+        margin-left: 30%;
+        font-size: 40px;
+        padding: 50px;
+        font-weight: 550;
+    
+    }
+    #save-button{
+    background: aquamarine;
+    border:purple 2px solid;
+    border-radius: 5px;
+    width: 40%;
+    height: 50px;
+    font-size: large;
+    color: purple;
+    font-weight: bold;
+    
+    }
+    
+    
+    
+    #type-area{
+        height: 500px;
+        width: 98%;
+        
+    }
+    
+    #table-headings{
+    color: whitesmoke;
+    font-size: x-large;
+    }
+    
+    
+    
+    /* MENTOR'S PROFILE */
+    
+    .picture-and-name{
+    display: flex;
+    margin: 10%;
+    justify-content: center;
+    gap: 90px;
+    }
+    
+    
+    .nationality-workplace{
+        display: flex;
+        margin: 10%;
+        justify-content: center;
+        gap: 90px;
+    
+    }
+    
+    
+    .nationality-workplace h2{
+        color: purple;
+        font-size: xx-large;
+    }
+    
+    
+    .profession-interests{
+        display: flex;
+        margin: 10%;
+        justify-content: center;
+        gap: 90px;
+        
+    }
+    
+    .profession-interests h2{
+        color: purple;
+        font-size: xx-large;
+    }
+    
+    #profile-title{
+    text-align: center;
+    }
+    .profile-section{
+    border: 5px solid purple;
+    margin: 0%;
+    padding: 0%;
+    width: 90%;
+    margin-left: 0%;
+    margin-right: 0%;
+    
+    border-radius: 20px;
+    height: 850px;
+    padding-top: 0%;
+    background-color: white;
+    /* color: rgb(252, 251, 249); */
+    
+    }
+    
+    #mentors-name{
+        color: black;
+        font-size: xx-large;
+        font-weight: bold;
+    }
+    
+    
+    
+    #mentor-profile{
+        background-color: purple;
+        height: 80px;
+        color: whitesmoke;
+        margin-top: 0%;
+        
+    
+    }
+    
+    
+    
+    #profil-picture{
+    border-radius: 10px;
+    }
+    
+  }
+
+
+
+  /* Large devices (desktops) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+
+
+
+    #landing-page-para{
+
+
+        width: 98%;
+        
+        background-color:rgb(42, 41, 41);
+        font-size: xx-large;
+        color:yellow;
+        
+        
+        
+        
+        }
+        .summmary{
+        margin-left: 5%;
+        border: 2px solid purple ;
+        outline: 40px, solid purple;
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./Media/book.jpg');
+        border-radius: 30px;
+        margin-top: 5%;
+        height: 500px;
+        margin-right: 5%;
+        
+        }
+        
+        .paragraph{
+            /* display: flex; */
+            justify-content: center;
+        }
+        
+        
+        #head-image{
+            margin-left: 35%;
+            border-radius: 10px;
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    /* CSS rules for large devices go here */
+
+
+    ul{
+        list-style: none;
+        padding: 0;
+    }
+    ul li{
+        cursor: pointer;
+        background-color: #c036c7;
+        position: relative;
+        transition: 0.5s;
+        padding: 15px 10px 15px 50px;
+        font-size: medium;
+    }
+    ul li:hover {
+        background-color:#cbfcd5 ;
+    }
+    ul li.checked{
+        background-color: #9c20d1;
+        color: white;
+        text-decoration: dashed;
+    }
+    ul li.checked::before{
+        content: "";
+        width: 10px;
+        height: 17px;
+        top: 12px;
+        left: 19px;
+        border-color: white;
+        border-style: solid;
+        border-width: 0 3px 3px 0;
+        position: absolute;
+        transform: rotate(60deg);
+    }
+    .close{
+        position: absolute;
+        right: 0;
+        top:0;
+        padding: 10px 14px 10px 14px;
+    }
+    .close:hover{
+      background-color: #8719c2;  
+      color: rgb(11, 20, 7);
+    }
+    input{
+        width: 250px;
+        padding: 10px;
+        margin:0;
+        float:left;
+        font-size: medium;
+        border-radius: 5px;
+        
+    }
+    .addBtn{
+        padding: 15px;
+        text-align: center;
+        cursor: pointer;
+        color:rgb(4, 41, 109);
+        font-size: medium;
+        background: rgb(196, 39, 220);
+        float: left;
+        border: none;
+        border-radius:5px;
+        width: 20%;
+    }
+    .addBtn:hover{
+        background-color: #ca4bc8;
+    }
+    .head{
+        background-color: #6b0878;
+        padding: 40px 50px;
+        color: white;
+        text-align: center;
+    }
+    .head:after{
+    content:"" ;
+    display: table;
+    clear: both;
+    }
+    #todo{
+      position: absolute;
+      background-color: white;  
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    /* SIGN UP PAGE */
+    
+    #logo{
+        height: 100px;
+    }
+    
+    #account-question{
+        text-align: center;
+        font-size: large;
+        font-weight: bold;
+        color: purple;
+    }
+    
+    #account-question span a{
+        color: rgb(247, 8, 80);
+        text-decoration: none;
+        
+    }
+    
+    .form{
+        border: 2px solid;
+        border-radius: 20px;
+        /* padding: 20px; */
+        width: 40%;
+        margin: 35%;
+        margin-top: 2%;
+        background-color: rgb(181, 247, 247);
+        height: 850px;
+        /* padding-top: 90px; */
+        padding-right: 0px;
+       padding-left: 0px;
+    
+        
+    }
+    
+    #logo{
+        margin-left: 40%;
+    }
+    
+    #create-account{
+    text-align: center;
+    }
+    
+    #connect-mentor{
+        text-align: center;
+    }
+    .input-first{
+        height: 50px;
+        margin: 2%;
+        border-radius: 10px;
+        border: 2px solid purple;
+        margin-left: 30%;
+        width: 60%;
+        
+    }
+    /* .box-conditions{
+        display: flex;
+        flex-direction: row;
+    } */
+    
+    
+    
+    .input-last{
+        height: 50px;
+        margin: 2%;
+        border-radius: 10px;
+        border: 2px solid purple;
+        margin-left: 0%;
+        width:60% ;
+    }
+    .identity{
+        display: flex;
+        gap: 40px;
+    }
+    #inputs{
+        height: 50px;
+        margin: 2%;
+        border-radius: 10px;
+        border: 2px solid purple;
+        width: 75%;
+        margin-left: 10%;
+    }
+    
+    .inputs{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #sign-up-button{
+        height: 50px;
+        margin-top: 10%;
+        width: 40%;
+        margin-top: 5%;
+        align-items: center;
+        margin-left: 30%;
+        color: whitesmoke;
+        background-color: purple;
+        font-weight: bolder;
+        border-radius: 35px;
+    
+    }
+    
+    #sign-up-button a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 25px;
+        
+    }
+    
+    
+    
+    /* LOG IN */
+    body{
+        background-color: rgb(238, 200, 206);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .form-log-in{
+       
+        border: 2px solid;
+        border-radius: 20px;
+        /* padding: 20px; */
+        width: 30%;
+        margin: 35%;
+        margin-top: 5%;
+        background-color: rgb(181, 247, 247);
+        height: 500px;
+        /* padding-top: 90px; */
+        padding-right: 0px;
+       padding-left: 0px;
+    }
+    
+    
+    
+    #account-question1{
+        /* text-align: center; */
+        font-size: large;
+        font-weight: bold;
+        color: purple;
+        margin-left:19% ;
+    }
+    
+    
+    #connect-mentor{
+        text-align: center;
+    }
+    
+    
+    
+    #sign-up{
+        color: rgb(241, 25, 61);
+        font-weight: bolder;
+        
+    }
+    
+    
+    /* HOME PAGE STYLES */
+    
+    .profile-pictures{
+        display: flex;
+        justify-content: center;
+        gap: 150px;
+    }
+    
+    
+    .logo-and-header{
+        display: flex;
+        border: 6px solid purple;
+        background-color:purple;
+        
+        width: 80%;
+        margin: 5%;
+        height: 150px;
+        margin-left: 10%;
+        /* align-items: center; */
+        /* justify-content: center; */
+        border-radius: 25px;
+        
+    }
+    
+    .nav-bar-links{
+        display: flex;
+        flex-direction: column;
+        list-style-type: nonre;
+    }
+    
+    
+    .nav-bar-links ul a{
+        
+        text-decoration: none;
+        font-size: 20px;
+        /* color: rgb(242, 234, 242); */
+        font-weight: bold;
+        font-size: 30px;
+        
+        
+    }
+    
+    
+    #you{
+     
+        background-color: purple;
+        height: 600px;
+        width: 30%;
+        border-radius:10px ;
+        padding: 0%;
+    }
+    
+    
+    #mentor{
+        background-color: purple;
+        height: 600px;
+        width: 30%;
+        border-radius:10px ;
+        padding: 0%;
+    
+    
+    
+    }
+    
+    #profile-pic-mentor{
+        width: fit-content;
+        width: 60%;
+        margin-top:0%;
+        margin-bottom: 5%;
+        padding-top: 0%;
+        margin-left: 21%;
+        border-radius: 15px;
+    }
+    
+    
+    #profile-pic-mentee{
+        width: fit-content;
+        width: 60%;
+        margin-top:0%;
+        margin-bottom: 0%;
+        padding-top: 0%;
+        margin-left: 21%;
+        border-radius: 15px;
+        padding: 0%;
+    }
+    
+    
+    #mentor-pp{
+        font-size: 50px;
+        text-align: center;
+        color: whitesmoke;
+        font-weight: bolder;
+        margin-top: 0%;
+    
+    }
+    
+    #mentor-pp a{
+        color: whitesmoke;
+        
+    }
+    
+    /* TERMS STYLES */
+    
+    .terms-conditions {
+        padding: 0%;
+        margin: 0%;
+    }
+    .terms-conditions p{
+      
+        padding: 10px;
+        font-style: italic;
+        margin-left:20% ;
+        margin-right: 20%;
+        font-family: sans-serif;
+       
+    
+    }
+    
+    .terms-conditions h2{
+        padding: 0px;
+        font-style: italic;
+        margin-left:20% ;
+        margin-right: 20%;
+        
+    
+    }
+    
+    
+    .page-heading{
+        text-align: center;
+        font-size: 50px;
+        color: purple;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    }
+    
+    
+    #terms-button{
+      
+    
+    
+    
+        height: 50px;
+        background-color: purple;
+        width: 20%;
+        color: whitesmoke;
+        height: 50px;
+        border-radius: 60px;
+        margin-left: 40%;
+    
+    }
+    
+    #terms-button a{
+        text-decoration: none;
+        color: whitesmoke;
+        
+    }
+    
+    
+    
+    
+    
+    
+    /* Landing page */
+    
+    .logo-and-title{
+       
+    }
+    .page-intro{
+        padding: 10px;
+       
+    }
+    
+    #landing-page-para{
+     
+        font-style:italic;
+        padding: 15px;
+        margin: 20%;
+        font-size: 20px;
+        margin-left: 0%;
+        margin-top: 5%;
+    
+    }
+    
+    #chica-exitosas{
+        font-size: 70px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+    
+    #about-title{
+    font-size: 40px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    }
+    
+    .intro-and-picture{
+        display: flex;
+        flex-direction: row;
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
+    } 
+    
+    
+    #mentorship-picture{
+        border-radius: 60px;
+    
+    }
+    
+    
+    #page-heading{
+        margin-left: 30%;
+    }
+    
+    .landing-page-head{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-evenly;
+        background-color: purple;
+        border-radius: 20px;
+        color: whitesmoke;
+        font-size: 20px;
+    }
+    
+    
+    
+    
+    
+    /* innerpage */
+    
+    table{
+        width: 10%;
+       
+    border: 5px solid rgb(244, 5, 124);
+    
+    background-color: purple;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    
+    }
+    
+    
+    
+    td{
+        border: 2px solid black;
+        height: 500px;
+        width: 25%;
+    
+    
+        
+    
+    }
+    
+    
+    tr{
+      
+        margin-right: 5%;
+      
+        
+    }
+    .nav-bar{
+       display: flex;
+       justify-content: center;
+    gap: 100px;
+    margin-left: 20%;
+        align-items: center;
+    }
+    .nav-bar a{
+        text-decoration: none;
+        color: rgb(250, 246, 250);
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+       
+    }
+    
+    
+    .tables{
+        margin: 5%;
+        
+    }
+    
+    
+    
+    #table-title{
+        text-align: center;
+        margin-left: 30%;
+        font-size: 40px;
+        padding: 50px;
+        font-weight: 550;
+    
+    }
+    
+    #table-title-achiv{
+        text-align: center;
+        margin-left: 30%;
+        font-size: 40px;
+        padding: 50px;
+        font-weight: 550;
+    
+    }
+    
+    
+    #table-title-todo{
+        text-align: center;
+        margin-left: 30%;
+        font-size: 40px;
+        padding: 50px;
+        font-weight: 550;
+    
+    }
+    #save-button{
+    background: aquamarine;
+    border:purple 2px solid;
+    border-radius: 5px;
+    width: 40%;
+    height: 50px;
+    font-size: large;
+    color: purple;
+    font-weight: bold;
+    
+    }
+    
+    
+    
+    #type-area{
+        height: 500px;
+        width: 98%;
+        
+    }
+    
+    #table-headings{
+    color: whitesmoke;
+    font-size: x-large;
+    }
+    
+    
+    
+    /* MENTOR'S PROFILE */
+    
+    .picture-and-name{
+    display: flex;
+    margin: 10%;
+    justify-content: center;
+    gap: 90px;
+    }
+    
+    
+    .nationality-workplace{
+        display: flex;
+        margin: 10%;
+        justify-content: center;
+        gap: 90px;
+    
+    }
+    
+    
+    .nationality-workplace h2{
+        color: purple;
+        font-size: xx-large;
+    }
+    
+    
+    .profession-interests{
+        display: flex;
+        margin: 10%;
+        justify-content: center;
+        gap: 90px;
+        
+    }
+    
+    .profession-interests h2{
+        color: purple;
+        font-size: xx-large;
+    }
+    
+    #profile-title{
+    text-align: center;
+    }
+    .profile-section{
+    border: 5px solid purple;
+    margin: 2%;
+    padding: 0%;
+    width: 90%;
+    margin-left: 5%;
+
+    
+    border-radius: 20px;
+    height: 850px;
+    padding-top: 0%;
+    background-color: white;
+    /* color: rgb(252, 251, 249); */
+    
+    }
+    
+    #mentors-name{
+        color: black;
+        font-size: xx-large;
+        font-weight: bold;
+    }
+    
+    
+    
+    #mentor-profile{
+        background-color: purple;
+        height: 80px;
+        color: whitesmoke;
+        margin-top: 0%;
+    
+    }
+    
+    
+    
+    #profil-picture{
+    border-radius: 10px;
+    }
+    
+    
+  }
+
+
+
+
+  /* Extra large devices (large desktops) */
+@media (min-width: 1200px) {
+
+
+
+
+    #landing-page-para{
+
+
+        width: 98%;
+        
+        background-color:rgb(42, 41, 41);
+        font-size: xx-large;
+        color:yellow;
+        
+        
+        
+        
+        }
+        .summmary{
+        margin-left: 5%;
+        border: 2px solid purple ;
+        outline: 40px, solid purple;
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./Media/book.jpg');
+        border-radius: 30px;
+        margin-top: 5%;
+        height: 500px;
+        margin-right: 5%;
+        
+        }
+        
+        .paragraph{
+            /* display: flex; */
+            justify-content: center;
+        }
+        
+        
+        #head-image{
+            margin-left: 35%;
+            border-radius: 10px;
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    /* CSS rules for extra large devices go here */
+    ul{
+        list-style: none;
+        padding: 0;
+    }
+    ul li{
+        cursor: pointer;
+        background-color: #c036c7;
+        position: relative;
+        transition: 0.5s;
+        padding: 15px 10px 15px 50px;
+        font-size: medium;
+    }
+    ul li:hover {
+        background-color:#cbfcd5 ;
+    }
+    ul li.checked{
+        background-color: #9c20d1;
+        color: white;
+        text-decoration: dashed;
+    }
+    ul li.checked::before{
+        content: "";
+        width: 10px;
+        height: 17px;
+        top: 12px;
+        left: 19px;
+        border-color: white;
+        border-style: solid;
+        border-width: 0 3px 3px 0;
+        position: absolute;
+        transform: rotate(60deg);
+    }
+    .close{
+        position: absolute;
+        right: 0;
+        top:0;
+        padding: 10px 14px 10px 14px;
+    }
+    .close:hover{
+      background-color: #8719c2;  
+      color: rgb(11, 20, 7);
+    }
+    input{
+        width: 250px;
+        padding: 10px;
+        margin:0;
+        float:left;
+        font-size: medium;
+        border-radius: 5px;
+        
+    }
+    .addBtn{
+        padding: 15px;
+        text-align: center;
+        cursor: pointer;
+        color:rgb(4, 41, 109);
+        font-size: medium;
+        background: rgb(196, 39, 220);
+        float: left;
+        border: none;
+        border-radius:5px;
+        width: 20%;
+    }
+    .addBtn:hover{
+        background-color: #ca4bc8;
+    }
+    .head{
+        background-color: #6b0878;
+        padding: 40px 50px;
+        color: white;
+        text-align: center;
+    }
+    .head:after{
+    content:"" ;
+    display: table;
+    clear: both;
+    }
+    #todo{
+      position: absolute;
+      background-color: white;  
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    /* SIGN UP PAGE */
+    
+    #logo{
+        height: 100px;
+    }
+    
+    #account-question{
+        text-align: center;
+        font-size: large;
+        font-weight: bold;
+        color: purple;
+    }
+    
+    #account-question span a{
+        color: rgb(247, 8, 80);
+        text-decoration: none;
+        
+    }
+    
+    .form{
+        border: 2px solid;
+        border-radius: 20px;
+        /* padding: 20px; */
+        width: 40%;
+        margin: 35%;
+        margin-top: 2%;
+        background-color: rgb(181, 247, 247);
+        height: 850px;
+        /* padding-top: 90px; */
+        padding-right: 0px;
+       padding-left: 0px;
+    
+        
+    }
+    
+    #logo{
+        margin-left: 40%;
+    }
+    
+    #create-account{
+    text-align: center;
+    }
+    
+    #connect-mentor{
+        text-align: center;
+    }
+    .input-first{
+        height: 50px;
+        margin: 2%;
+        border-radius: 10px;
+        border: 2px solid purple;
+        margin-left: 30%;
+        width: 60%;
+        
+    }
+   
+    
+    
+    
+    .input-last{
+        height: 50px;
+        margin: 2%;
+        border-radius: 10px;
+        border: 2px solid purple;
+        margin-left: 5%;
+        width:55% ;
+    }
+    .identity{
+        display: flex;
+        gap: 40px;
+    }
+    #inputs{
+        height: 50px;
+        margin: 2%;
+        border-radius: 10px;
+        border: 2px solid purple;
+        width: 75%;
+        margin-left: 10%;
+    }
+    
+    .inputs{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #sign-up-button{
+        height: 50px;
+        margin-top: 10%;
+        width: 40%;
+        margin-top: 5%;
+        align-items: center;
+        margin-left: 30%;
+        color: whitesmoke;
+        background-color: purple;
+        font-weight: bolder;
+        border-radius: 35px;
+    
+    }
+    
+    #sign-up-button a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 25px;
+        
+    }
+    
+    
+    
+    /* LOG IN */
+    body{
+        background-color: rgb(238, 200, 206);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .form-log-in{
+       
+        border: 2px solid;
+        border-radius: 20px;
+        /* padding: 20px; */
+        width: 30%;
+        margin: 35%;
+        margin-top: 5%;
+        background-color: rgb(181, 247, 247);
+        height: 500px;
+        /* padding-top: 90px; */
+        padding-right: 0px;
+       padding-left: 0px;
+    }
+    
+    
+    
+    #account-question1{
+        /* text-align: center; */
+        font-size: large;
+        font-weight: bold;
+        color: purple;
+        margin-left:19% ;
+    }
+    
+    
+    #connect-mentor{
+        text-align: center;
+    }
+    
+    
+    
+    #sign-up{
+        color: rgb(241, 25, 61);
+        font-weight: bolder;
+        
+    }
+    
+    
+    /* HOME PAGE STYLES */
+    
+    .profile-pictures{
+        display: flex;
+        justify-content: center;
+        gap: 150px;
+    }
+    
+    
+    .logo-and-header{
+        display: flex;
+        border: 6px solid purple;
+        background-color:purple;
+        
+        width: 80%;
+        margin: 5%;
+        height: 150px;
+        margin-left: 10%;
+        /* align-items: center; */
+        /* justify-content: center; */
+        border-radius: 25px;
+        
+    }
+    
+    .nav-bar-links{
+        display: flex;
+        flex-direction: column;
+        list-style-type: nonre;
+    }
+    
+    
+    .nav-bar-links ul a{
+        
+        text-decoration: none;
+        font-size: 20px;
+        /* color: rgb(242, 234, 242); */
+        font-weight: bold;
+        font-size: 30px;
+        
+        
+    }
+    
+    
+    #you{
+     
+        background-color: purple;
+        height: 600px;
+        width: 30%;
+        border-radius:10px ;
+        padding: 0%;
+    }
+    
+    
+    #mentor{
+        background-color: purple;
+        height: 600px;
+        width: 30%;
+        border-radius:10px ;
+        padding: 0%;
+    
+    
+    
+    }
+    
+    #profile-pic-mentor{
+        width: fit-content;
+        width: 60%;
+        margin-top:0%;
+        margin-bottom: 5%;
+        padding-top: 0%;
+        margin-left: 21%;
+        border-radius: 15px;
+    }
+    
+    
+    #profile-pic-mentee{
+        width: fit-content;
+        width: 60%;
+        margin-top:0%;
+        margin-bottom: 0%;
+        padding-top: 0%;
+        margin-left: 21%;
+        border-radius: 15px;
+        padding: 0%;
+    }
+    
+    
+    #mentor-pp{
+        font-size: 50px;
+        text-align: center;
+        color: whitesmoke;
+        font-weight: bolder;
+        margin-top: 0%;
+    
+    }
+    
+    #mentor-pp a{
+        color: whitesmoke;
+        
+    }
+    
+    /* TERMS STYLES */
+    
+    .terms-conditions {
+        padding: 0%;
+        margin: 0%;
+    }
+    .terms-conditions p{
+      
+        padding: 10px;
+        font-style: italic;
+        margin-left:20% ;
+        margin-right: 20%;
+        font-family: sans-serif;
+       
+    
+    }
+    
+    .terms-conditions h2{
+        padding: 0px;
+        font-style: italic;
+        margin-left:20% ;
+        margin-right: 20%;
+        
+    
+    }
+    
+    
+    .page-heading{
+        text-align: center;
+        font-size: 50px;
+        color: purple;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    }
+    
+    
+    #terms-button{
+      
+    
+    
+    
+        height: 50px;
+        background-color: purple;
+        width: 20%;
+        color: whitesmoke;
+        height: 50px;
+        border-radius: 60px;
+        margin-left: 40%;
+    
+    }
+    
+    #terms-button a{
+        text-decoration: none;
+        color: whitesmoke;
+        
+    }
+    
+    
+    
+    
+    
+    
+    /* Landing page */
+    
+    .logo-and-title{
+       
+    }
+    .page-intro{
+        padding: 10px;
+       
+    }
+    
+    #landing-page-para{
+     
+        font-style:italic;
+        padding: 15px;
+        margin: 20%;
+        font-size: 20px;
+        margin-left: 0%;
+        margin-top: 5%;
+    
+    }
+    
+    #chica-exitosas{
+        font-size: 70px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+    
+    #about-title{
+    font-size: 40px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    }
+    
+    .intro-and-picture{
+        display: flex;
+        flex-direction: row;
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
+    } 
+    
+    
+    #mentorship-picture{
+        border-radius: 60px;
+    
+    }
+    
+    
+    #page-heading{
+        margin-left: 30%;
+    }
+    
+    .landing-page-head{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-evenly;
+        background-color: purple;
+        border-radius: 20px;
+        color: whitesmoke;
+        font-size: 20px;
+    }
+    
+    
+    
+    
+    
+    /* innerpage */
+    
+    table{
+        width: 10%;
+       
+    border: 5px solid rgb(244, 5, 124);
+    
+    background-color: purple;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    
+    }
+    
+    
+    
+    td{
+        border: 2px solid black;
+        height: 500px;
+        width: 25%;
+    
+    
+        
+    
+    }
+    
+    
+    tr{
+      
+        margin-right: 5%;
+      
+        
+    }
+    .nav-bar{
+       display: flex;
+       justify-content: center;
+    gap: 100px;
+    margin-left: 20%;
+        align-items: center;
+    }
+    .nav-bar a{
+        text-decoration: none;
+        color: rgb(250, 246, 250);
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+       
+    }
+    
+    
+    .tables{
+        margin: 5%;
+        
+    }
+    
+    
+    
+    #table-title{
+        text-align: center;
+        margin-left: 30%;
+        font-size: 40px;
+        padding: 50px;
+        font-weight: 550;
+    
+    }
+    
+    #table-title-achiv{
+        text-align: center;
+        margin-left: 30%;
+        font-size: 40px;
+        padding: 50px;
+        font-weight: 550;
+    
+    }
+    
+    
+    #table-title-todo{
+        text-align: center;
+        margin-left: 30%;
+        font-size: 40px;
+        padding: 50px;
+        font-weight: 550;
+    
+    }
+    #save-button{
+    background: aquamarine;
+    border:purple 2px solid;
+    border-radius: 5px;
+    width: 40%;
+    height: 50px;
+    font-size: large;
+    color: purple;
+    font-weight: bold;
+    
+    }
+    
+    
+    
+    #type-area{
+        height: 500px;
+        width: 98%;
+        
+    }
+    
+    #table-headings{
+    color: whitesmoke;
+    font-size: x-large;
+    }
+    
+    
+    
+    /* MENTOR'S PROFILE */
+    
+    .picture-and-name{
+    display: flex;
+    margin: 10%;
+    justify-content: center;
+    gap: 90px;
+    }
+    
+    
+    .nationality-workplace{
+        display: flex;
+        margin: 10%;
+        justify-content: center;
+        gap: 90px;
+    
+    }
+    
+    
+    .nationality-workplace h2{
+        color: purple;
+        font-size: xx-large;
+    }
+    
+    
+    .profession-interests{
+        display: flex;
+        margin: 10%;
+        justify-content: center;
+        gap: 90px;
+        
+    }
+    
+    .profession-interests h2{
+        color: purple;
+        font-size: xx-large;
+    }
+    
+    #profile-title{
+    text-align: center;
+    }
+    .profile-section{
+    border: 5px solid purple;
+    margin: 2%;
+    padding: 0%;
+    width: 35%;
+    margin-left: 25%;
+    
+    border-radius: 20px;
+    height: 850px;
+    padding-top: 0%;
+    background-color: white;
+    /* color: rgb(252, 251, 249); */
+    
+    }
+    
+    #mentors-name{
+        color: black;
+        font-size: xx-large;
+        font-weight: bold;
+    }
+    
+    
+    
+    #mentor-profile{
+        background-color: purple;
+        height: 80px;
+        color: whitesmoke;
+        margin-top: 0%;
+    
+    }
+    
+    
+    
+    #profil-picture{
+    border-radius: 10px;
+    }
+    
+    
+  }
